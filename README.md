@@ -1036,4 +1036,7 @@ int main(int argc, char **argv)
 
 
 ## RESULT:
+Among the tested block sizes (1024, 1023, 512, and 256), block size 256 produced the minimum GPU execution time of 0.001056 seconds and therefore achieved the best optimization on the Tesla T4 GPU.
+Block size 512 showed unusually high execution time compared to the other configurations, indicating lower performance in this experimental run.
+
 Thus, Implementation of sum arrays on host and device is done in nvcc cuda using random number.
